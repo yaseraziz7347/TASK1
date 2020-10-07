@@ -1,0 +1,15 @@
+#Task1
+list1=[5,6,1,6,8,9,100,11,4,2]
+list1.sort()
+print('larg number is ',list1[len(list1)-1])
+#Task2
+print('scend larg number is ',list1[len(list1)-2])
+#Task3
+list2=[66,8,3,4,6,9,0,1,5]
+marglist=list1+list2
+marglist
+marglist.sort()
+print('after sorted ',marglist)
+#Task4
+marglist[0],marglist[len(marglist)-1]=marglist[len(marglist)-1],marglist[0]
+print('after swap ',marglist)
